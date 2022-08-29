@@ -9,7 +9,7 @@ import java.util.Collection;
 public class King extends Piece{
 
     King(int piecePosition, Alliance pieceAlliance) {
-        super(piecePosition, pieceAlliance);
+        super(piecePosition, pieceAlliance, isFirstMove);
     }
 
     @Override
